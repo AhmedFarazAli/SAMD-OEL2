@@ -11,6 +11,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OEL2">
         <activity
+            android:name=".orderDatails"
+            android:exported="false" />
+        <activity
+            android:name=".appliances"
+            android:exported="false" />
+        <activity
+            android:name=".mobile"
+            android:exported="false" />
+        <activity
+            android:name=".Watch"
+            android:exported="false" />
+        <activity
+            android:name=".music"
+            android:exported="false" />
+        <activity
+            android:name=".books"
+            android:exported="false" />
+        <activity
+            android:name=".clothes"
+            android:exported="false" />
+        <activity
             android:name=".dashboard"
             android:exported="false" />
         <activity
@@ -24,7 +45,7 @@
         </activity>
         <activity
             android:name=".SignUp"
-            tools:ignore="ExtraText"></activity>
+            tools:ignore="ExtraText" />
     </application>
 
 </manifest>

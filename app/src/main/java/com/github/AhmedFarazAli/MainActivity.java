@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         setupUI();
         setupListeners();
+
     }
     private void setupUI() {
         username = findViewById(R.id.username);
@@ -41,8 +42,24 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i);
         });
     }
+    boolean isEmpty(EditText text) {
+        CharSequence str = text.getText().toString();
+        return TextUtils.isEmpty(str);
+    }
     void  checkUsername(){
-        boolean inValid=true;
+        if (isEmpty(username)) {
+            username.setError("UserName is required!");
+            Toast t = Toast.makeText(this, "UserName is required!", Toast.LENGTH_SHORT);
+            t.show();
+        }
+
+        if (isEmpty(password)) {
+            password.setError("Password is required!");
+        }
+        else {
+            Intent i = new Intent(MainActivity.this, dashboard.class);
+            startActivity(i);
+        }
     }
 }
 

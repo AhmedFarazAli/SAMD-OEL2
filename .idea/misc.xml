@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_appliances.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_books.xml" value="0.1" />
+        <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_clothes.xml" value="0.1" />
         <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_dashboard.xml" value="0.23645833333333333" />
         <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_main.xml" value="0.23645833333333333" />
+        <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_mobile.xml" value="0.1" />
+        <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_music.xml" value="0.1" />
+        <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_order_datails.xml" value="0.2223731884057971" />
         <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_sign_up.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/Ahmed/Desktop/Material/Android Projects/OEL2/app/src/main/res/layout/activity_watch.xml" value="0.1" />
       </map>
     </option>
   </component>
